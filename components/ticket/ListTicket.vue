@@ -41,7 +41,7 @@
           v-if="tab === 'tickets'"
           bordered
           hover
-          sticky-header="440px"
+          sticky-header="700px"
           :items="listTickets"
           :fields="fields"
           :tbody-tr-class="rowClass"
@@ -50,7 +50,7 @@
           v-else-if="tab === 'products'"
           bordered
           hover
-          sticky-header="440px"
+          sticky-header="700px"
           :items="products"
         ></b-table>
       </div>
@@ -159,18 +159,21 @@ export default {
 .list-ticket {
   border-top: 1px solid #dddbda;
   border-left: 1px solid #dddbda;
+  height: 100%;
 }
 .top {
   display: flex;
-  padding: 10px 5px 0px 5px;
+  align-items: center;
+  padding: 10px 5px 0px 10px;
 }
 .top img {
-  max-width: 25px;
-  max-height: 25px;
+  max-width: 38px;
+  max-height: 43px;
 }
 .top p {
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 600;
 }
 .top-action {
@@ -183,8 +186,8 @@ button {
   background-color: #0070d2;
   border-radius: 5px;
   color: #fff;
-  font-size: 14px;
-  padding: 4px 12px;
+  font-size: 22px;
+  padding: 6px 20px;
   margin-right: 30px;
 }
 button:hover {
@@ -192,6 +195,7 @@ button:hover {
 }
 .table {
   padding: 10px;
+  font-size: 20px;
 }
 .table-nav {
   display: flex;
@@ -199,8 +203,9 @@ button:hover {
   border-bottom: 2px solid #dd7a01;
 }
 .table-nav-item {
-  font-size: 16px;
-  padding: 4px 8px;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 10px 19px;
   margin: 0;
   border-top: 3px solid #dddbda;
   border-left: 1px solid #dddbda;
@@ -220,13 +225,15 @@ button:hover {
 form {
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin: 10px;
 }
 label {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+  width: 150px;
 }
 form input {
   padding: 0 3px;
+  font-size: 18px;
 }
 </style>

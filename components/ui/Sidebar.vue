@@ -51,7 +51,7 @@ export default {
   justify-content: space-between;
   position: fixed;
   left: 0;
-  top: 50px;
+  top: 80px;
   bottom: 0;
   background-color: rgba(0, 112, 210, 0.8);
   z-index: 99;
@@ -71,13 +71,13 @@ export default {
   content: '';
   left: 0;
   height: 100%;
-  width: 7px;
+  width: 14px;
   background-color: #ff9e2c;
 }
 .icon {
-  width: 35px;
-  height: 35px;
-  margin: 7px 10px;
+  width: 44px;
+  height: 44px;
+  margin: 12px 21px;
   cursor: pointer;
 }
 </style>

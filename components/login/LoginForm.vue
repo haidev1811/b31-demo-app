@@ -112,8 +112,9 @@ export default {
   position: absolute;
   left: 0;
   height: 100%;
+  width: 720px;
   background-color: #fffcfc;
-  padding: 74px 136px 0 136px;
+  padding: 84px 146px 0 146px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   border-radius: 30px;
   z-index: 10;
@@ -124,24 +125,25 @@ form {
 }
 .heading {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 43px;
   line-height: 120%;
   color: #f57112;
-  margin-bottom: 36px;
+  margin-bottom: 56px;
 }
 label {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 120%;
   color: #0070d2;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 input {
   border: 1px solid #cecdcd;
   box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  padding: 8px 12px;
-  font-size: 18px;
+  border-radius: 15px;
+  padding: 18px 32px;
+  font-size: 28px;
   line-height: 120%;
+  margin-bottom: 20px;
 }
 input::placeholder {
   color: #cecdcd;
@@ -152,23 +154,26 @@ input:focus {
 .option {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
 }
 .option-text {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 30px;
   text-decoration: none;
   line-height: 120%;
   color: #0070d2;
   margin-bottom: 5px;
 }
 button {
+  font-size: 28px;
+  line-height: 33px;
   width: 100%;
   background-color: #0070d2;
   color: #fffcfc;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
   border: none;
-  padding: 8px 0;
-  border-radius: 10px;
+  padding: 21px 0;
+  border-radius: 20px;
 }
 .form-input {
   display: flex;
@@ -180,6 +185,6 @@ button {
 }
 .invalid span {
   color: red;
-  max-width: 230px;
+  font-size: 20px;
 }
 </style>

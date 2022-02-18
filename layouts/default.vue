@@ -19,11 +19,11 @@ export default {
 
 <style scoped>
 .app {
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .content {
-  padding-left: 55px;
-  height: calc(100vh - 50px);
+  padding-left: 85px;
+  height: calc(100vh - 80px);
 }
 </style>

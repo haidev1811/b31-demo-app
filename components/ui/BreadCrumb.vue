@@ -27,14 +27,14 @@ export default {
 
 <style scoped>
 .wrapper {
-  height: 50px;
-  padding: 0 80px;
+  padding: 40px 0 18px 80px;
   display: flex;
   align-items: center;
 }
 .item,
 .next {
-  font-size: 12px;
+  font-size: 18px;
+  line-height: 22px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0 5px;
 }
@@ -43,7 +43,7 @@ export default {
 }
 .icon {
   margin-right: 3px;
-  height: 14px;
-  width: 14px;
+  height: 18px;
+  width: 18px;
 }
 </style>

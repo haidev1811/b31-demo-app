@@ -30,7 +30,8 @@ export default {
   flex: 1;
   height: calc(100% - 15px);
   margin: 0 10px;
-  box-shadow: -1px 0px 3px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+  border: 1px solid #dddbda;
+  box-shadow: -1px 0px 3px rgba(12, 15, 190, 0.25);
+  border-radius: 6px;
 }
 </style>

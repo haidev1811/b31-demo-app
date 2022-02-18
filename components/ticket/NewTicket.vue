@@ -131,8 +131,8 @@
           id="type-note"
           class="type-textarea"
           placeholder="Ghi chú xử lý"
-          rows="3"
-          max-rows="3"
+          rows="6"
+          max-rows="8"
         ></b-form-textarea>
       </div>
       <div class="actions">
@@ -263,17 +263,18 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2px 10px;
+  padding: 10px 12px;
   border-bottom: 1px solid #dddbda;
 }
 .top p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
   margin: 0;
 }
 .top img {
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
 }
 .content {
   padding: 15px 10px;
@@ -281,19 +282,21 @@ export default {
 .subject {
   display: flex;
   align-items: center;
-  padding: 4px 6px;
+  padding: 10px;
   border-bottom: 2px solid #0078d4;
 }
 .subject p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 700;
 }
 .subject input {
   border: none;
   flex: 1;
-  padding: 2px 3px;
-  font-size: 14px;
+  padding: 5px 7px;
+  font-size: 16px;
+  line-height: 20px;
 }
 .subject input:focus {
   outline: none;
@@ -302,9 +305,15 @@ export default {
   padding: 10px 0;
 }
 label {
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 21px;
   font-weight: 700;
   margin-top: 10px;
+}
+.type-input {
+  font-size: 18px;
+  padding: 6px 8px;
+  margin-bottom: 20px;
 }
 .type-input:focus,
 .type-textarea:focus {
@@ -319,6 +328,8 @@ label {
 }
 .type-textarea {
   background-color: #faffbb;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 .actions {
   display: flex;
@@ -329,13 +340,13 @@ label {
 button {
   border: none;
   color: white;
-  font-size: 14px;
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3px 10px;
-  border-radius: 5px;
-  margin-left: 5px;
+  padding: 7px 30px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 button.cancel {
   background-color: #dd7a01;
@@ -344,8 +355,8 @@ button.add {
   background-color: #048448;
 }
 button img {
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   margin-left: 3px;
 }
 </style>

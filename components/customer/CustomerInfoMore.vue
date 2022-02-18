@@ -98,9 +98,9 @@ export default {
   display: flex;
 }
 .top p {
-  flex: 1;
   margin: 0;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 600;
   color: #fac8a4;
   background: linear-gradient(
@@ -116,7 +116,7 @@ export default {
   border: none;
   border-top: 1px solid #dddbda;
   border-left: 1px solid #dddbda;
-  font-size: 14px;
+  font-size: 20px;
   padding-left: 10px;
 }
 .top input:focus {
@@ -125,12 +125,12 @@ export default {
 .info-list {
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 20px 30px;
 }
 .info-list img {
   cursor: pointer;
-  max-width: 50px;
-  max-height: 40px;
+  max-width: 64px;
+  max-height: 60px;
 }
 .content {
   padding: 15px 10px;
@@ -140,19 +140,19 @@ export default {
   align-items: center;
 }
 .user img {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 120px;
+  max-height: 120px;
 }
 .status-list {
   display: flex;
   margin-left: 5px;
 }
 .status-item {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 16px;
-  padding: 2px 16px;
+  padding: 2px 22px;
   margin: 0 5px;
 }
 .status-item.vip {
@@ -168,22 +168,24 @@ export default {
   color: #bd524e;
 }
 .contact {
-  margin: 20px 15px;
+  margin: 30px 44px;
 }
 .contact-item {
   display: flex;
+  margin-bottom: 16px;
 }
 .contact-item img {
-  width: 26px;
-  height: 22px;
-  margin-right: 10px;
+  width: 32px;
+  height: 26px;
+  margin-right: 30px;
 }
 .contact-item p {
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 26px;
   font-weight: 500;
 }
 .contact-item.last p {
-  margin-left: 35px;
+  margin-left: 60px;
 }
 .info {
   display: flex;
@@ -191,12 +193,13 @@ export default {
   justify-content: space-between;
 }
 .info p {
-  font-size: 18px;
+  font-size: 28px;
+  line-height: 33px;
   font-weight: 700;
-  margin: 0 10px 5px 10px;
+  margin: 0 10px 10px 10px;
 }
 .info img {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 </style>

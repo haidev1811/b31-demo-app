@@ -1,11 +1,11 @@
 <template>
   <div>
-    <b-container class="container">
+    <div class="login">
       <div class="wrapper">
         <login-form></login-form>
         <img :src="bgLogin" alt="background" />
       </div>
-    </b-container>
+    </div>
   </div>
 </template>
 
@@ -26,13 +26,15 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.login {
+  margin: 0 auto;
   height: 100vh;
+  width: 1440px;
   display: flex;
   flex-direction: column;
 }
 .wrapper {
-  height: 500px;
+  height: 807px;
   margin: auto 0;
   position: relative;
 }
@@ -40,7 +42,7 @@ export default {
 img {
   position: absolute;
   right: 0;
-  width: 70%;
+  width: 1082px;
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
